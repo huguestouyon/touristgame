@@ -10,4 +10,43 @@ h2 {
     font-weight: bold;
     color: #5F4F44;
     background-color: #87AB2C;
+    padding: 34px 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+form {
+    padding: 81px 0 44px 0;
+}
+
+label {
+    padding: 13px 16px;
+    background-color: #5F4F44;
+    color: #FFFFFF;
+}
+
+
+form div:first-child {
+    margin-bottom: 57px;
+    display: flex;
+}
+
+form div:nth-child(2) {
+
+    display: flex;
+    margin-bottom: 40px;
+    width: 300px;
+}
+
+button {
+    font-size: 24px;
+    font-weight: bold;
+    padding: 15px 64px;
+    border-radius: 15px;
+    background-color: #87AB2C;
+    border:1px solid #87AB2C;
+    color: #FFFFFF;
+}
+
+.btn {
+    text-align: center;
 }
