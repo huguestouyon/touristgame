@@ -36,11 +36,10 @@ if (!empty($_POST)) {
     }
 }
 ?>
-
     <?php
-    $title = "Accueil";
+    $title = "Connexion";
     require_once "includes/header.php"; ?>
-
+    <h2>Connexion</h2>
     <form action="" method="post">
     <input type="email" name="email" id="email" placeholder="Adresse de messagerie" required>
     <input type="password" name="pass" id="pass" placeholder="Mot de passe" required>
